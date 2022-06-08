@@ -9,6 +9,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { PlaceholderComponent } from './placeholder/placeholder.component';
+import { TaskComponent } from './task/task.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SecondComponent } from './second/second.component';
     PageNotFoundComponent,
     HomeComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    PlaceholderComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,

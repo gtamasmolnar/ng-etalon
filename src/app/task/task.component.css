@@ -1,0 +1,3 @@
+.focus {
+    @apply rounded-md bg-blue-200 py-1 px-2 text-blue-800;
+}
